@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const schemaControl = require('../db/schemaControl');
-const url = require('./dbUrl');
+const secrets = require('./secrets.json');
 
 // api functions
 
