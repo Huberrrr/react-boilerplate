@@ -1,8 +1,4 @@
 # MERN Boilerplate
 
-## What to do after downloading
-Change the project name in package.json
-
-Run npm install
-
-Set up your database access url in src/server/api/dbUrl.js
+## How to use
+Download create-mern-app bash script from https://github.com/Huberrrr/scripts and run it
