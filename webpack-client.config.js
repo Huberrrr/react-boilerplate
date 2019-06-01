@@ -2,7 +2,6 @@ const path = require("path");
 
 module.exports = {
     entry: "./src/client/index.js",
-    mode: "production",
     target: "web",
     module: {
         rules: [
@@ -15,6 +14,10 @@ module.exports = {
             {
                 test: /\.css$/,
                 use: ["style-loader", "css-loader"]
+            },
+            {
+                test: /\.scss$/,
+                use: ["style-loader", "css-loader", "sass-loader"]
             }
         ]
     },

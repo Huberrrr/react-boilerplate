@@ -1,10 +1,10 @@
-const express = require('express');
+const express = require("express");
 const app = express();
-const router = require('./routes');
+const router = require("./routes");
 
-app.use('/', router);
+app.use("/", router);
 
-const port = 3000;
+const port = 5000;
 app.listen(process.env.PORT || port, () => {
-    console.log('server is now onine...');
+    console.log("server is now onine...");
 });
