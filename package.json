@@ -6,8 +6,9 @@
   "scripts": {
     "build:prod": "webpack --mode production --config ./webpack-client.config.js && webpack --mode production --config ./webpack-server.config.js",
     "build:dev": "webpack --watch --mode development --config ./webpack-client.config.js",
-    "start": "npm install && npm run build:prod && node ./server",
-    "start:dev": "npm install && concurrently -n WEBPACK,NODEMON \"npm run build:dev\" \"nodemon ./src/server/index\""
+    "start:prod": "npm install && npm run build:prod && node ./server",
+    "start:dev": "npm install && concurrently -n WEBPACK,NODEMON \"npm run build:dev\" \"nodemon ./src/server/index\"",
+    "start": "node ./server"
   },
   "author": "",
   "license": "ISC",
