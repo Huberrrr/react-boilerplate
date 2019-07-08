@@ -2,9 +2,5 @@
 node_modules
 package-lock.json
 
-# production build
-public/bundle.js
-server.js
-
 # db access
 src/server/api/secrets.json
