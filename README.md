@@ -1,7 +1,7 @@
 # MERN Boilerplate
 
 ## How to use
-Download create-mern-app bash script from https://github.com/Huberrrr/scripts and run it
+Download create-mern-app bash script from https://github.com/Huberrrr/scripts and run it with your project name as an argument
 
 ## npm Scripts
 
@@ -9,4 +9,4 @@ Download create-mern-app bash script from https://github.com/Huberrrr/scripts an
 
 `npm run start:dev` use this for developing and testing changes
 
-`npm run build:prod` use this create a production build before deploying to heroku
+`npm run build:prod` use this create a production build before deploying
