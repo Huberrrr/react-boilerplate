@@ -1,4 +1,4 @@
-# MERN Boilerplate
+# React Boilerplate
 
 ## how to use
 1. Click the "Use this template" button at the top and enter the repository name you want to use.

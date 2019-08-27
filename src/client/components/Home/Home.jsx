@@ -3,7 +3,7 @@ import './Home.scss';
 
 const HomeContainer = () => (
   <div>
-    <h1 className="header">MERN Boilerplate</h1>
+    <h1 className="header">React Boilerplate</h1>
   </div>
 );
 
