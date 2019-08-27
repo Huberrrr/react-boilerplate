@@ -1,6 +1,6 @@
-import nodeExternals from 'webpack-node-externals';
+const nodeExternals = require('webpack-node-externals');
 
-const serverConfig = {
+module.exports = {
   entry: './src/server/index.js',
   mode: 'production',
   target: 'node',
@@ -14,5 +14,3 @@ const serverConfig = {
   },
   externals: [nodeExternals()],
 };
-
-export default serverConfig;

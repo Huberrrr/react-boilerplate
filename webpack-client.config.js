@@ -1,7 +1,7 @@
-import path from 'path';
+const path = require('path');
 
-const clientConfig = {
-  entry: './src/client/index.js',
+module.exports = {
+  entry: './src/client/index.jsx',
   target: 'web',
   module: {
     rules: [
@@ -30,5 +30,3 @@ const clientConfig = {
     hints: false,
   },
 };
-
-export default clientConfig;
