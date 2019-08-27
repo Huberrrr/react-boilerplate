@@ -1,16 +1,8 @@
 # MERN Boilerplate
 
 ## how to use
-Click the "Use this template" button at the top and enter the repository name you want to use.
-
-Once that is finished you also have to update the `name` and `author` fields in the `package.json` file.
-
-You should also create the file `src/server/api/secrets.json` to store your secrets with the following format:
-```
-{
-  "key": "value"
-}
-```
+1. Click the "Use this template" button at the top and enter the repository name you want to use.
+2. Once that is finished you also have to update the `name` and `author` fields in the `package.json` file.
 
 ## npm scripts
 
