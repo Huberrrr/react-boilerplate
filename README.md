@@ -6,14 +6,16 @@
 
 ## npm scripts
 
-`npm run lint` used by other scripts (**you should not need to run this**), used for checking code style
+`npm run lint` used by other scripts **(you should not need to run this)**, used for checking code style
 
 `npm run test` use this for running jest test cases
 
 `npm run build:prod` use this to create a production build before deploying
 
-`npm run build:dev` used by other scripts (**you should not need to run this**), creates build for development
+`npm run build:dev` used by other scripts **(you should not need to run this)**, creates build for development
 
 `npm run start:prod` use this for running a production build
 
 `npm run start:dev` use this for running a development build with active changes
+
+`npm start` used after deployed to cloud **(you should not need to run this)**
