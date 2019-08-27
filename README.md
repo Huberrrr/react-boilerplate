@@ -6,8 +6,14 @@
 
 ## npm scripts
 
-`npm start:prod` use this for testing production builds
+`npm run lint` used by other scripts (**you should not need to run this**), used for checking code style
 
-`npm run start:dev` use this for developing and testing changes
+`npm run test` use this for running jest test cases
 
-`npm run build:prod` use this create a production build before deploying
+`npm run build:prod` use this to create a production build before deploying
+
+`npm run build:dev` used by other scripts (**you should not need to run this**), creates build for development
+
+`npm run start:prod` use this for running a production build
+
+`npm run start:dev` use this for running a development build with active changes
