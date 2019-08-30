@@ -1,4 +1,5 @@
-# React Boilerplate
+# react-boilerplate
+a react single-page application template for jump-starting projects
 
 ## how to use
 1. Click the "Use this template" button at the top and enter the repository name you want to use.
