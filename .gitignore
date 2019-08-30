@@ -1,6 +1,3 @@
 # auto generated files
 node_modules
 package-lock.json
-
-# db access
-src/server/api/secrets.json

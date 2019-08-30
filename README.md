@@ -2,20 +2,18 @@
 
 ## how to use
 1. Click the "Use this template" button at the top and enter the repository name you want to use.
-2. Once that is finished you also have to update the `name` and `author` fields in the `package.json` file.
+2. Once that is finished you also have to update the `name`, `author`, and `description` fields in the `package.json` file.
 
 ## npm scripts
 
+`npm install` used to install dependencies
+
 `npm run lint` used by other scripts **(you should not need to run this)**, used for checking code style
 
-`npm run test` use this for running jest test cases
+`npm run test` used for running jest test cases
 
-`npm run build:prod` use this to create a production build before deploying
+`npm run clean` used for cleaning up auto-generated files, used when issues with node_modules arise
 
-`npm run build:dev` used by other scripts **(you should not need to run this)**, creates build for development
+`npm run dev` used for running the development server
 
-`npm run start:prod` use this for running a production build
-
-`npm run start:dev` use this for running a development build with active changes
-
-`npm start` used after deployed to cloud **(you should not need to run this)**
+`npm run build` used for creating a production build

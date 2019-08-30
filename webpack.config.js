@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/client/index.jsx',
+  entry: './src/App.jsx',
   target: 'web',
   module: {
     rules: [
@@ -37,5 +37,9 @@ module.exports = {
   },
   performance: {
     hints: false,
+  },
+  devServer: {
+    contentBase: './public',
+    hot: true,
   },
 };

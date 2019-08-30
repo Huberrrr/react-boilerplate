@@ -1,8 +1,9 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 // page imports
-import Home from './components/Home';
+import Home from './components/Home/Home';
 
 const App = () => (
   <Router>
@@ -10,4 +11,4 @@ const App = () => (
   </Router>
 );
 
-export default App;
+ReactDOM.render(<App />, document.getElementById('app-root'));
