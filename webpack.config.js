@@ -41,5 +41,6 @@ module.exports = {
   devServer: {
     contentBase: './public',
     hot: true,
+    open: true,
   },
 };

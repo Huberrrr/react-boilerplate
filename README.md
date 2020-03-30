@@ -1,15 +1,13 @@
 # react-boilerplate
-a react single-page application template for jump-starting projects
+a clean react single-page application template for jump-starting projects
 
 ## how to use
 1. Click the "Use this template" button at the top and enter the repository name you want to use.
-2. Once that is finished you also have to update the `name`, `author`, and `description` fields in the `package.json` file.
+2. Update the `name`, `author`, and `description` fields in the `package.json` file.
 
 ## npm scripts
 
-`npm install` used to install dependencies
-
-`npm run lint` used by other scripts **(you should not need to run this)**, used for checking code style
+`npm install` used for installing dependencies
 
 `npm run test` used for running jest test cases
 
