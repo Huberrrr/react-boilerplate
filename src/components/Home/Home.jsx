@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.scss';
 
 const Home = () => (
-  <div>
+  <div className="home">
     <h1 className="header">React Boilerplate</h1>
   </div>
 );
