@@ -9,10 +9,6 @@ a clean react single-page application template for jump-starting projects
 
 `npm install` used for installing dependencies
 
-`npm run test` used for running jest test cases
-
-`npm run clean` used for cleaning up auto-generated files, used when issues with node_modules arise
-
 `npm run dev` used for running the development server
 
 `npm run build` used for creating a production build
